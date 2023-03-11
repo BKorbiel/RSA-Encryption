@@ -36,7 +36,7 @@ public class RSA {
 	  }
 
 
-    //function returns random hexadecimal odd number with a certain number of bits (512)
+    //function returns random odd number with a certain number of bits (512)
     static BigInteger GetRandomNumber() {
       Random random = new Random();
 
