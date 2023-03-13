@@ -9,7 +9,9 @@ public class Keys {
 
     public Keys(int bits) {
         this.numberOfBits = bits;
+    }
 
+    void Generate() {
         //generating keys
         BigInteger p = GetRandomOddNumber();
         while (!isPrime(p)) {
