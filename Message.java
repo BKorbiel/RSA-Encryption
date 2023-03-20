@@ -1,6 +1,6 @@
-package RSAemail.RSA;
 import java.math.BigInteger;
 
+import javax.swing.text.html.HTMLDocument.HTMLReader.BlockAction;
 
 public class Message {
     String decryptedMessage;
